@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Welcome,"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <!-- View Tickets button -->
+
+    <!-- Generate Report button -->
+    <!-- Logout button -->
+    <Button
+        android:id="@+id/add_ticket_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome_text"
+        android:layout_marginTop="55dp"
+        android:text="Add Ticket"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/view_tickets_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_ticket_button"
+        android:layout_marginTop="8dp"
+        android:text="View Tickets"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
